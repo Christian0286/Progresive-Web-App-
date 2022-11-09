@@ -9,10 +9,10 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   plugins: [vue(),VitePWA({
     manifest: {
-      name: 'Criptocotizador de Criptomonedas con VUE.JS VITE Y SASS',
-      short_name: 'Criptocotizador | DMA',
-      description: 'Criptocotizador de Criptomonedas con VUE.JS VITE Y SASS',
-      theme_color: '#f68de3',
+      name: 'Criptocotizador de Criptomonedas con VUE.JS Vite Y Sass',
+      short_name: 'Criptocotizador | CKCF',
+      description: 'Criptocotizador de Criptomonedas con VUE.JS Vite Y Sass',
+      theme_color: '#f68de8',
       "icons": [
         {
           "src": "windows11/SmallTile.scale-100.png",
@@ -24,7 +24,7 @@ export default defineConfig({
         },
         {
           "src": "windows11/SmallTile.scale-150.png",
-          "sizes": "107x107"
+          "sizes": "107x107"  
         },
         {
           "src": "windows11/SmallTile.scale-200.png",

@@ -4,7 +4,10 @@
   
       <Grid>
         <formulario @info-monedas="obtener" />
-        <Data :cripto="info.cripto" :moneda="info.moneda" :img="info.img" :precio="info.precio" />
+        <Data :cripto="info.cripto" 
+        :moneda="info.moneda" 
+        :img="info.img" 
+        :precio="info.precio" />
       </Grid>
      <reload-prompt/>
     </div>

@@ -2,7 +2,7 @@
     margin: 20px;
     border:solid 3px $white;
     border-radius: 7px;
-    background-color: darken($color: $bg, $amount: 19);
+    background-color: darken($color: $primary, $amount: 19);
     box-shadow: 1px 1px 24px $white;
     width: min-content;
 }

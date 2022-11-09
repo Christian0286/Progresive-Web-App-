@@ -7,14 +7,14 @@ button{
     cursor: pointer;
     font-weight: bold;
     color:$white;
-    background-color: $primary;
+    background-color: $secondary;
     border: none;
     font-size: 15px;
     outline: none;
     transition: background 0.3s;
     &:hover{
         transition: background 0.3s;
-        background: lighten($color: $primary, $amount: 13);
+        background: lighten($color: $secondary, $amount: 5);
     }
 }
 @media screen and (max-width:600px){
